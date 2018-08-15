@@ -1,0 +1,35 @@
+<div class="container">
+        <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                        <input
+                                type="name"
+                                id="name"
+                                class="form-control"
+                                formControlName="name"
+                                placeholder="Username">
+                </div>
+                <div class="form-group">
+                        <input
+                                type="password"
+                                id="password"
+                                class="form-control"
+                                formControlName="password"
+                                placeholder="Password">
+                </div>
+                <div class="form-group">
+                        <input
+                                type="email"
+                                id="email"
+                                class="form-control"
+                                formControlName="email"
+                                placeholder="Mail"
+                                >
+                </div>
+                <div class="form-group">
+                <button
+                        class="btn"
+                        type="submit"
+                        >Register</button>
+                </div>
+        </form>
+    </div>

@@ -1,0 +1,160 @@
+.container {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    min-height:100% !important;
+    min-width: 100% !important;
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 86px;
+    background-color: #0b6db2;
+    text-align: center;
+}
+
+#number {
+    color: white;
+    width: 150px;
+    height: 60px;
+    padding: 14px 16px;
+    margin-left: 60px;
+    vertical-align: middle;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    display:inline-block;
+}
+
+#logo {
+    margin-right: 80px;
+    margin-top: 15px;
+    height: 22px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+}
+
+li {
+    float: left;
+    font-family: Roboto;
+    letter-spacing: 2.25px;
+    margin-top: -15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    width: 150px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #0b6db2;
+}
+
+#service {
+    background-color: #ffffff;
+    height: 50px;
+    color: #0b6db2;
+}
+
+.active {
+    background-color: white;
+    border-radius: 2px;
+    color: #0b6db2;
+}
+
+
+.main {
+    background-image: url("..\assets\images\4882.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 700px;
+}
+
+#horizontal > div
+{
+    display: inline-block;
+}
+#horizontal
+{
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px
+}  
+
+#left {
+    position: relative;
+    margin-top: 150px;
+    right: 250px;
+
+}
+
+#left h1 {
+    height: 47px;
+    color: #0b6db2;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 4.5px;
+    position: relative;
+}
+
+#left h2 {
+    width: 316px;
+    height: 28px;
+    color: #545151;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2.25px;
+    margin-left: -15px;
+}
+
+#left button {
+    width: 250px;
+    height: 50px;
+    background-color: #0b6db2;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 70%;
+}
+
+#right {
+    margin: 5%;
+    margin-top: 115px;
+    right: 300px;
+    width: 200px;
+    display: inline-block;
+    position: fixed;
+    justify-content: center;
+}
